@@ -1,0 +1,10 @@
+Geographic elevation and bathymetry source
+
+Dataset: NOAA NCEI ETOPO 2022, 15 arc-second global relief model (surface elevation).
+The app includes eight Indonesian-region tiles, resampled to 3 arc-minute Float32 grids for a compact browser mesh. These local grids contain both land elevations and ocean depths in meters.
+
+Official dataset and citation:
+https://www.ncei.noaa.gov/products/etopo-global-relief-model
+NOAA National Centers for Environmental Information. 2022. ETOPO 2022 15 Arc-Second Global Relief Model. DOI: 10.25921/fd45-gt74.
+
+Files named etopo-n00e*.bin cover 15 degrees south to the equator. Files named etopo-n15e*.bin cover the equator to 15 degrees north. The converter script documents how the compact files were made from the original tiled GeoTIFFs.
