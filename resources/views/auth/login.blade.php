@@ -211,7 +211,6 @@
   <div class="card login-card">
     <p class="page-eyebrow">AKSES PETUGAS</p>
     <h1>Masuk Admin</h1>
-    <p style="margin-bottom:16px;opacity:.85;">Super Admin: <code>admin</code> / <code>kelompok 2</code><br>Admin Operator: <code>operator</code> / <code>operator123</code></p>
     @if($errors->any())<p role="alert" style="margin-bottom:14px;padding:10px 14px;border:1px solid #ef4444;border-radius:10px;color:#fca5a5;">{{ $errors->first() }}</p>@endif
     <form method="POST" action="{{ route('login.attempt') }}">
       @csrf
